@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/aboutus.css">
+    <title>CodeMasters - Learn Programming and Web Development</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="Learn-links">
+                <div class="logo">CodeMasters</div>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#python">Python</a></li>
+                    <li><a href="#advanced-python">Advanced Python</a></li>
+                    <li><a href="#cpp">C++</a></li>
+                    <li><a href="#web-development">Web Development</a></li>
+                    <li><a href="#shopify">Shopify</a></li>
+                    <li><a href="#bootstrap">Bootstrap</a></li>
+                </ul>
+                <div class="nav-icon" id="navIcon">&#9776;</div>
+            </div>
+        </nav>
+    </header>
+
+
+    <section id="python">
+        <h2>Python Essentials</h2>
+        <p>Embark on your coding journey with Python, the perfect language for beginners. Our step-by-step tutorials and interactive exercises ensure you grasp the fundamentals with ease.</p>
+    </section>
+
+    <section id="advanced-python">
+        <h2>Advanced Python</h2>
+        <p>Ready to take it up a notch? Dive deeper into Python with advanced concepts, algorithms, and real-world projects that challenge and inspire you.</p>
+    </section>
+
+    <section id="cpp">
+        <h2>C++ Mastery</h2>
+        <p>Explore the power of C++, a classic programming language that forms the backbone of software development. Our comprehensive resources make learning C++ a breeze.</p>
+    </section>
+
+    <section id="web-development">
+        <h2>Web Development Wonders</h2>
+        <p>Discover the art of crafting web applications from scratch. Learn HTML, CSS, and JavaScript, and witness your creations come to life.</p>
+    </section>
+
+    <section id="shopify">
+        <h2>Shopify Secrets</h2>
+        <p>Unlock the potential of e-commerce with Shopify. Master the intricacies of building and customizing online stores that captivate customers.</p>
+    </section>
+
+    <section id="bootstrap">
+        <h2>Bootstrap Brilliance</h2>
+        <p>Streamline your web development process using Bootstrap. From responsive design to sleek interfaces, you'll learn how to create stunning websites effortlessly.</p>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="#" class="social-icon">Facebook</a>
+            <a href="#" class="social-icon">Twitter</a>
+            <a href="#" class="social-icon">Instagram</a>
+        </div>
+        <p>Contact: info@codemasters.com</p>
+    </footer>
+    <script>
+        const navIcon = document.getElementById("navIcon");
+        const navLinks = document.getElementById("navLinks");
+
+        navIcon.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+        });
+       
+    </script>
+</body>
+</html>

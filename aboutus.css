@@ -1,0 +1,238 @@
+       /* Reset and global styles... (same as before) */
+
+/* Apply some specific styling for sections and footer */
+*{
+    margin: 0;
+    padding: 0;
+}
+section {
+    padding: 2rem;
+    background-color: #1c2a3c;
+    margin: 2rem 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+p {
+    color: #fff;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #1c2a3c;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.social-links {
+    margin-bottom: 1rem;
+}
+
+.social-icon {
+    color: #fff;
+    margin: 0 0.5rem;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #a0c6e0;
+}
+/* Reset and global styles... (same as before) */
+
+/* Apply some specific styling for sections and footer */
+.section {
+    padding: 3rem;
+    background-color: #f9f9f9;
+    margin: 2rem 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.section:hover {
+    background-color: #f0f0f0;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .nav-links li {
+        margin-bottom: 0.5rem;
+    }
+}
+@font-face {
+        font-family: clash-display;
+        src: url(ClashDisplay-Regular.otf);
+      }
+      @font-face {
+        font-family: clash-display-semibold;
+        src: url(ClashDisplay-Semibold.otf);
+      }
+      @font-face {
+        font-family: satoshi;
+        src: url(Satoshi-Regular.otf);
+      }
+h1,h2,h3,h4,h5{
+    font-family: clash-display-semibold;
+}
+p{
+    font-family: clash-display; 
+}
+.Learn-links{
+ display:flex;
+}
+.nav-links{
+    list-style: none;
+   
+}
+.nav-links li a{
+    color: black;
+    text-decoration: none;
+}
+.section {
+            padding: 3rem;
+            background-color: #f9f9f9;
+            margin: 2rem 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s;
+        }
+
+        .section:hover {
+            background-color: #f0f0f0;
+        }
+
+        /* Responsive styles */
+        @media screen and (max-width: 768px) {
+            .nav-links {
+                flex-direction: column;
+            }
+
+            .nav-links li {
+                margin-bottom: 0.5rem;
+            }
+        }
+
+        /* Custom font faces */
+        @font-face {
+            font-family: clash-display;
+            src: url(ClashDisplay-Regular.otf);
+        }
+
+        @font-face {
+            font-family: clash-display-semibold;
+            src: url(ClashDisplay-Semibold.otf);
+        }
+
+        @font-face {
+            font-family: satoshi;
+            src: url(Satoshi-Regular.otf);
+        }
+
+        /* Apply custom fonts to headings and paragraphs */
+        h1, h2, h3, h4, h5 {
+            font-family: clash-display-semibold;
+        }
+
+        p {
+            font-family: clash-display;
+        }
+
+        /* Additional styles for navigation */
+        .logo {
+            font-family: clash-display-semibold;
+            font-size: 1.5rem;
+            color: white;
+            margin-right: 2rem;
+            padding: 21px 0px;
+        }
+
+        .Learn-links {
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-links {
+            list-style: none;
+            margin: 0;
+            display: flex;
+        }
+
+        .nav-links li {
+            margin-right: 1rem;
+        }
+
+        .nav-links li a {
+            color: white;
+            text-decoration: none;
+            font-family: clash-display-semibold;
+            transition: color 0.3s;
+        }
+
+        .nav-links li a:hover {
+            color: #a0c6e0;
+        }
+        header{
+            background-color: #1c2a3c;
+        }
+/* Add more specific styling as necessary */
+
+ /* Responsive hamburger menu styles */
+ .nav-icon {
+            display: none;
+            cursor: pointer;
+            font-size: 1.5rem;
+            color: white;
+            margin-left: auto; /* Move the hamburger icon to the right */
+            padding: 0 20px; /* Add padding for better spacing */
+        }
+
+        @media screen and (max-width: 768px) {
+            .nav-links {
+                display: none;
+                flex-direction: column;
+                background-color: #1c2a3c;
+                position: absolute;
+                top: 70px;
+                left: 0;
+                width: 100%;
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .nav-icon {
+                display: block;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .nav-links {
+                display: none;
+                flex-direction: column;
+                background-color: #1c2a3c;
+                position: absolute;
+                top: 70px;
+                left: 0;
+                width: 100%;
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .nav-icon {
+                display: block;
+            }
+        }
